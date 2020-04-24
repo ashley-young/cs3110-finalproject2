@@ -31,6 +31,7 @@ val get_cell_color: cell -> color
 (** [get_cell_value c] is the integer point-value of cell [c]. *)
 val get_cell_value: cell -> int
 
+val get_state_color: t -> string
 (** [check_win t] is true if someone has won the game. *)
 val check_win: t -> bool
 
